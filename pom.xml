@@ -10,44 +10,9 @@
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>4.1.9.RELEASE</spring.version>
-		<servletapi.version>3.1.0</servletapi.version>
 	</properties>
 
 	<dependencies>
-
-		<dependency>
-			<groupId>weblogic-thinclient</groupId>
-			<artifactId>wlclient</artifactId>
-			<version>12.2</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>weblogic-thinclient</groupId>
-			<artifactId>wljmsclient</artifactId>
-			<version>12.2</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>weblogic-thinclient</groupId>
-			<artifactId>wlthint3client</artifactId>
-			<version>12.2</version>
-			<scope>provided</scope>
-		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>weblogic-thinclient</groupId> -->
-		<!-- <artifactId>weblogic</artifactId> -->
-		<!-- <version>12.2</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>weblogic-thinclient</groupId> -->
-		<!-- <artifactId>weblogic-spring</artifactId> -->
-		<!-- <version>12.2</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>weblogic-thinclient</groupId> -->
-		<!-- <artifactId>weblogic-corba</artifactId> -->
-		<!-- <version>12.2</version> -->
-		<!-- </dependency> -->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
@@ -66,14 +31,6 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-
-		<dependency>
-			<groupId>javax.servlet</groupId>
-				<artifactId>javax.servlet-api</artifactId>
-				<version>${servletapi.version}</version>
-			<scope>provided</scope>
-		</dependency>
-
 	</dependencies>
 
 	<build>
