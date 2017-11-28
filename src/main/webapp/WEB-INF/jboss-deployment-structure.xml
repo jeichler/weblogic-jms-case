@@ -1,0 +1,10 @@
+<jboss-deployment-structure>
+	<deployment>
+		<dependencies>
+			<module name="weblogic" />
+		</dependencies>
+<!-- 		<exclude-subsystems> -->
+<!-- 			<subsystem name="messaging-activemq"/> -->
+<!-- 		</exclude-subsystems> -->
+	</deployment>
+</jboss-deployment-structure>
